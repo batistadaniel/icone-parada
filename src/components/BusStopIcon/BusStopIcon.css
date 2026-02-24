@@ -11,7 +11,7 @@
     display: flex;
     background-color: #385EA9;
     width: 100px;
-    height: 115px;
+    height: 108px;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
@@ -36,16 +36,22 @@
     width: 72px;
     height: 60px;
     text-align: center;
-    font-size: 32px; /* Ajustado levemente para caber o SVG ou números grandes */
+    font-size: 44px; /* Ajustado levemente para caber o SVG ou números grandes */
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
     border-radius: 2px;
     color: #000;
     overflow: hidden;
 }
 
 .info-placa svg {
-    width: 80%;
-    height: 80%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
 }
 
 .poste-placa {

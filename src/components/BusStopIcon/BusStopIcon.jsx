@@ -13,7 +13,7 @@ const BusStopIcon = ({ content }) => {
               ) : (
                 /* Se não houver content, exibe o SVG que você forneceu */
                 <svg
-                  viewBox="0 0 768 768"
+                  viewBox="0 0 512 512"
                   fill="#000000"
                   transform="matrix(-1, 0, 0, 1, 0, 0)"
                 >
