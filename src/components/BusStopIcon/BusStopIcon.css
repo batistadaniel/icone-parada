@@ -1,0 +1,56 @@
+/* src/components/BusStopIcon/BusStopIcon.css */
+
+.bus-stop-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100px; /* Definindo largura para centralizar o poste */
+}
+
+.placa-azul {
+    display: flex;
+    background-color: #385EA9;
+    width: 100px;
+    height: 115px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.borda-interna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    height: 90%;
+    width: 90%;
+}
+
+.info-placa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 72px;
+    height: 60px;
+    text-align: center;
+    font-size: 32px; /* Ajustado levemente para caber o SVG ou números grandes */
+    font-weight: bold;
+    border-radius: 2px;
+    color: #000;
+    overflow: hidden;
+}
+
+.info-placa svg {
+    width: 80%;
+    height: 80%;
+}
+
+.poste-placa {
+    margin: 0 auto;
+    width: 10px;
+    height: 30px;
+    background-color: #000000;
+}
